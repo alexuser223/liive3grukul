@@ -1,0 +1,652 @@
+/* body{
+height:100vh;
+width:100vw;
+} */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.heading{
+    width:100%;
+    
+    border-bottom: 1px solid grey;
+
+
+}
+.upperheading{
+    display: flex;
+    width: 100%;
+    background-color:#000000 ;
+    height:50px;
+    justify-content: space-between;
+}
+.upperheading div{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    color:white;
+}
+.lowerheading{
+    display: flex;
+    justify-content: space-between ;
+    margin: 5px;
+    align-items: center;
+}
+.msgg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* margin: 5px; */
+}
+.options{
+    margin: 17px;
+    align-items: center;
+    cursor: pointer;
+
+}
+.options:hover{
+    cursor: pointer;
+    color: rgb(230, 125, 64);
+
+}
+
+#quote{
+    background-color: transparent;
+    align-items: center;
+    color:rgb(230, 125, 64);                                           
+    border-radius: 5px;
+    border:1px solid rgb(230, 125, 64);
+    padding: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#quote:hover{
+    background-color: rgb(230, 125, 64);
+   
+    color:#fff;                                           
+    
+}
+
+.promo{
+
+}
+
+.promo-area{
+    height: 400px;
+    background:rgba(0, 0, 0, .65)url(assets/Bg-images/Study.jpg);
+    background-position: center;
+    background-blend-mode: darken;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    /* background-image: rgba(0, 0, 0, 0.801); */
+}
+
+
+.promo-area2{
+    height: 282px;
+    background:rgba(0, 0, 0, .65)url(static/computer-2982270_1280.jpg);
+    background-position: center;
+    background-blend-mode: darken;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    /* background-image: rgba(0, 0, 0, 0.801); */
+}
+
+.service{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 112px;
+}
+
+.product{
+    width: 20%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    margin: 5px;
+    
+}
+
+.img-logo{
+    width: 40px;
+    height: 40px;
+    background: url(https://www.slnsoftwares.com/images/icons/featured-1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+section{
+    margin-top: 10px;
+}
+.why{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.tech{
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+    border-right: 2px solid grey;
+    display: flex;
+    align-items: center;
+}
+
+.google{
+    width: 135px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review img{
+
+    width: 131px;
+    height: 65px;
+
+}
+.topic{
+    height: 800px;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topic-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic-title h2{
+   margin-top: 20px;
+   font-weight: 400;
+}
+.topic-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px ;
+}
+
+.topic-para-img{
+    width: 80%;
+    display: flex;
+    height: 90%;
+
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 40px; */
+}
+
+.topic-para-img div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic-img{
+    background: url(assets/Bg-images/certifacate.jpg);
+    height: 80%; 
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.topic-img-left{
+    background: url(static/3d.png);
+    height: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.call{
+    width: 100%;
+    height: 250px;
+    background-image: url(https://www.slnsoftwares.com/images/background/pattern-4.png);
+    background-color: rgb(73 71 70);;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #f2f2f2;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+}
+
+.buttons button{
+
+    height:40px;
+    width: 100px;
+    border-radius: 25px;
+    background-color:#000000;
+    border: none;
+    margin: 5px;
+    padding:5px;
+    color: white;
+}
+
+.technologies{
+    width: 100%;
+    /* height:500px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+
+}
+
+.box-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-box{
+    width: 30%;
+    /* border: 2px solid red; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.tech-cox-grid{
+    height: 80%;
+    display: flex;
+    /* justify-content: center; */
+    border-radius: 12px;
+    margin: 5px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.tech-cox-grid img{
+ /* padding:5px; */
+    /* border:1px solid black; */
+    box-shadow: 0px 0px 10px rgb(54, 53, 53);
+    margin:5px;
+    height:80px;
+    width: 80px;
+    padding: 5px;
+}
+
+.pro{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+
+.progress{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  
+
+}
+
+.faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.faq-bar{
+    width:80%;
+    background-color: #000000;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 7px;
+    height:40px;
+    /* margin-bottom: 10px; */
+    /* text-align: center; */
+}
+.answer{
+    text-align: center;
+    width:80%;
+    
+    border: 1px solid grey;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border-top: 1px solid transparent;
+    /* font-size: 13px; */
+}
+
+.footer{
+    
+    height:500px;
+    display: flex;
+    align-items: center;
+    background-color: #38383d;
+    color: white;
+    justify-content: space-around;
+}
+
+.section{
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+li{
+    font-weight: 200;
+    font-size: 11px;
+}
+
+.copyright{
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy-right{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between ; */
+}
+
+.copy-rightt{
+    width: 100%;
+    display: flex;
+    justify-content: end ;
+    column-gap: 5px;
+    margin: 5px;
+}
+
+.heading-mini{
+    display: none;
+  }
+
+
+
+
+  .Online-courses{
+    height: 350px; width: 30%;background-color: rgb(255, 255, 255); 
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgb(230, 125, 64);
+    border-radius: 5px;
+}
+
+.Course button{
+    color:rgb(230, 125, 64);background-color: white; padding: 10px;border:1px solid rgb(230, 125, 64);box-shadow: 0px 0px 10px rgb(230, 125, 64); border-radius: 5px;width: 50%; margin-top: 10px;font-size: 20px;
+}
+.Course button:hover{
+    color:white;background-color: rgb(230, 125, 64); 
+    cursor: pointer;
+}
+
+
+.Course-detail{
+    height: 35%;  background-color: #6a5acd1f; display: flex;justify-content:center;align-items:center; flex-direction: column;font-size: large;
+}
+
+.c-button{
+    height: 25%; display: flex;align-items: center;justify-content: center;
+}
+
+.topic-para-img p{
+    margin: 5px;
+}
+
+.topic-subtitle p{
+    margin: 5px;
+}
+
+
+
+.gallery{
+    height:100%;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: dodgerblue; */
+}
+
+.gallery-items{
+    width: 20%;
+    height:100%;
+    background-color: beige;
+    padding: 10px;
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      /* font-size: 12px; */
+    }
+
+    *{
+        text-align: center;
+    }
+    .service{
+        flex-direction: column;
+        height: auto;
+    }
+    .product{
+        width: 100%;
+        
+    }
+    .product div{
+        text-align: center;
+        
+    }
+    .tech{
+        font-size: 12px;
+    }
+    .why{
+        height: auto;
+        flex-direction: column;
+    }
+    .tech{
+        width: 100%;
+        text-align: center;
+    }
+    .topic{
+        height: auto;
+    }
+    .topic-para-img{
+        flex-direction: column;
+        width: 100%;
+    }
+    .topic-para-img div{
+        text-align: center;
+        width: 80%;
+    }
+    .box-container{
+        flex-direction: column;
+        
+    }
+    .tech-box{
+        width: auto;
+        height: auto;
+    }
+  .pro{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  .footer{
+    height: auto;
+    flex-direction: column;
+  }
+
+  .footer section{
+    margin-top: 20px;
+    /* text-align: start; */
+  }
+
+  .copyright{
+    height: auto;
+    flex-direction: column;
+  }
+
+  .copy-rightt{
+    justify-content: center;
+  }
+
+  .tech-cox-grid{
+    justify-content: center;
+  }
+  .upperheading{
+    display: none;
+  }
+  .lowerheading{
+    display: none;
+  }
+  .heading{
+    height: 50px;
+    background-color: rgb(230, 125, 64);
+    position: fixed;
+    top:0;
+  }
+
+  .heading-mini{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .heading{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .call-float{
+    width:45px;
+    height: 45px;
+    background: rgb(230, 125, 64);
+    border-radius: 50%;
+    position: fixed;
+    bottom:10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:1px solid white;
+    color: white;
+
+}
+
+.blog{
+    display: block;
+}
+.blog p{
+    padding: 10px;
+}
+
+
+.Online-courses{
+    width: 100%;
+}
+
+.call{
+    display: none;
+}
+
+  }
+
+  
+
+
+  /* this is for nav  */
+
+  .nav{
+    height:100vh;
+    width: 100%;
+    background-color: #000000a7;
+    position: fixed;
+    top:50px;
+    display: flex;
+}
+.nav-menu{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    color: rgb(230, 125, 64);
+     row-gap: 20px;
+     display: flex;
+     flex-direction:column;
+     align-items:stretch;
+     justify-content: center;
+     border-top-right-radius: 10px;
+}
+
+.nav-menu li{
+    font-size: 25px
+}
+.nav-out{
+    width: 20%;
+    height: 100%;
+}
+.hide{
+    display: none;
+}
+
+
+
+
